@@ -1,0 +1,8 @@
+# 使用POJO代替ByteBuf
+
+在ChannelHandler中使用POJO会使得ChannelHandler的实现变得可维护和可重用。
+
+在本模块中，对time_server模块进行了改进，引进了`UnixTime`的POJO对象。
+
+对于Client与Server端，对应有ServerEncoderHandler与ClientDecoderHandler。
+

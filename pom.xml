@@ -12,6 +12,8 @@
         <module>discard_server</module>
         <module>echo_server</module>
         <module>time_server</module>
+        <module>stream_server</module>
+        <module>pojo_server</module>
     </modules>
 
     <properties>
